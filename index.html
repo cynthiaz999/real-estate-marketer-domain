@@ -3,108 +3,68 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Real Estate Copy Generator: listing marketing in one paste</title>
+<title>Prop Marketer: from listing details to posts that sell</title>
 <meta name="description" content="Paste your listing notes and get an Instagram post, Facebook post, LinkedIn post, reel script, email, and flyer text in seconds.">
+<link rel="icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --paper: #f7f8fa;
-    --ink: #14213d;
-    --muted: #4a5568;
-    --accent: #1f5f4a;
-    --line: #d9dee6;
-  }
-  * { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
-  body {
-    margin: 0;
-    background: var(--paper);
-    color: var(--ink);
-    font-family: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    line-height: 1.6;
-  }
-  .wrap { max-width: 44rem; margin: 0 auto; padding: 0 1.5rem; }
-  header { padding: 1.5rem 0; border-bottom: 1px solid var(--line); }
-  header .wrap { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
-  .brand { font-family: "Newsreader", Georgia, "Times New Roman", serif; font-weight: 600; font-size: 1.15rem; }
-  nav a { color: var(--muted); text-decoration: none; margin-left: 1.25rem; font-size: 0.95rem; }
-  nav a:hover { color: var(--ink); text-decoration: underline; }
-  h1 {
-    font-family: "Newsreader", Georgia, "Times New Roman", serif;
-    font-weight: 600;
-    font-size: clamp(2.1rem, 6vw, 3.25rem);
-    line-height: 1.1;
-    letter-spacing: -0.01em;
-    margin: 4rem 0 1.25rem;
-    max-width: 18ch;
-  }
-  .lede { font-size: 1.15rem; color: var(--muted); max-width: 36rem; margin: 0 0 2rem; }
-  .cta {
-    display: inline-block;
-    background: var(--accent);
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 0.8rem 1.4rem;
-    border-radius: 4px;
-  }
-  .cta:hover { background: #17493a; }
-  a:focus-visible { outline: 3px solid #7aa7ff; outline-offset: 3px; }
-  .note { color: var(--muted); font-size: 0.9rem; margin: 0.75rem 0 0; }
-  section { padding: 3.5rem 0 0; }
-  h2 { font-family: "Newsreader", Georgia, "Times New Roman", serif; font-weight: 600; font-size: 1.6rem; margin: 0 0 1rem; }
-  ul { padding-left: 1.2rem; margin: 0; }
-  li { margin: 0.5rem 0; }
-  footer { margin-top: 4.5rem; padding: 1.5rem 0 2.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
-  footer a { color: var(--muted); }
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
   <div class="wrap">
-    <span class="brand">Real Estate Copy Generator</span>
-    <nav>
-      <a href="privacy.html">Privacy policy</a>
-      <a href="mailto:zengcynthia9@gmail.com">Contact</a>
-    </nav>
+    <a class="brand" href="index.html"><img src="assets/logo.png" alt=""><span>Prop Marketer</span></a>
+    <nav><a href="index.html">Home</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy policy</a><a href="mailto:zengcynthia9@gmail.com">Contact</a></nav>
   </div>
 </header>
 
 <main class="wrap">
-  <h1>Your listing marketing, written in seconds.</h1>
-  <p class="lede">Paste your raw property notes. Get an Instagram post, a Facebook post, a LinkedIn post, a reel script, a just-listed summary, an email, and flyer text, all in the tone you choose.</p>
-  <a class="cta" href="https://real-estate-marketer-209358908924.northamerica-northeast2.run.app">Try it with 3 free generations</a>
-  <p class="note">Sign in with Google. No credit card needed to start.</p>
+  <img class="banner" src="assets/banner.webp" width="1584" height="396" alt="Prop Marketer. From listing details to posts that sell.">
 
-  <section>
-    <h2>What you get from one set of notes</h2>
-    <ul>
-      <li>Instagram post with hashtags and a call to action</li>
-      <li>Facebook post focused on the neighborhood and lifestyle</li>
-      <li>LinkedIn post focused on value and investment appeal</li>
-      <li>30-second reel or TikTok script with on-screen directions</li>
-      <li>Just-listed bulleted summary</li>
-      <li>Email newsletter with subject line</li>
-      <li>Print flyer text</li>
-    </ul>
-  </section>
+  <div class="hero">
+    <div>
+      <div class="rule"></div>
+      <h1>Seven listing posts from one set of notes.</h1>
+      <p class="lede">Paste the details you already have. Prop Marketer writes the social posts, email and flyer text for your listing, in the tone you choose.</p>
+      <a class="cta" href="https://real-estate-marketer-209358908924.northamerica-northeast2.run.app">Try it with 3 free generations</a>
+      <p class="note">Sign in with Google. No credit card needed to start.</p>
+    </div>
+    <div class="panel">
+      <h2>Every generation includes</h2>
+      <ul class="list">
+        <li><b>Instagram post</b> <span>with hashtags and a DM call to action</span></li>
+        <li><b>Facebook post</b> <span>that tells the story of the home</span></li>
+        <li><b>LinkedIn post</b> <span>on value and standout features</span></li>
+        <li><b>Reels / TikTok script</b> <span>30 seconds, with voiceover</span></li>
+        <li><b>Just Listed summary</b> <span>a scannable feature list</span></li>
+        <li><b>Email blast</b> <span>with subject line and button text</span></li>
+        <li><b>Print flyer text</b> <span>headline, specs and contact footer</span></li>
+      </ul>
+    </div>
+  </div>
 
-  <section>
-    <h2>Plans</h2>
-    <ul>
-      <li><strong>Free:</strong> 3 generations to try it on your own listing</li>
-      <li><strong>Basic, $29 per month:</strong> 30 generations per month</li>
-      <li><strong>Pro, $59 per month:</strong> 150 generations per month</li>
-    </ul>
-    <p class="note">Payments are handled by Stripe. You can cancel any time from your account.</p>
-  </section>
+  <h2 class="section-title">How it works</h2>
+  <div class="steps">
+    <div class="step"><b>1. Paste your notes</b><p>MLS data, bullet points or rough text, up to 6,000 characters.</p></div>
+    <div class="step"><b>2. Choose a tone</b><p>Enthusiastic and luxury, casual and warm, or professional and urgent.</p></div>
+    <div class="step"><b>3. Review and post</b><p>Check every detail, fill in the [PLACEHOLDERS], then copy or download.</p></div>
+  </div>
+
+  <h2 class="section-title">Pricing</h2>
+  <div class="plans">
+    <div class="plan"><div class="n">Free</div><div class="p">$0</div><div class="d">3 generations to try it</div></div>
+    <div class="plan"><div class="n">Basic</div><div class="p">$29<small>/month</small></div><div class="d">30 generations a month</div></div>
+    <div class="plan"><div class="n">Pro</div><div class="p">$59<small>/month</small></div><div class="d">150 generations a month</div></div>
+  </div>
+  <p class="note">Payments are handled by Stripe. You can cancel any time from your account.</p>
+
+  <p class="fine">Posts are written from the facts in your notes only, and missing details are left as placeholders instead of guessed. The writing is also guided by fair housing rules. You review every post before it goes out.</p>
 </main>
 
 <footer>
   <div class="wrap">
-    <a href="privacy.html">Privacy policy</a> &nbsp;|&nbsp; <a href="mailto:zengcynthia9@gmail.com">[YOUR CONTACT EMAIL]</a>
+    <a href="index.html">Home</a><span class="sep">|</span><a href="terms.html">Terms of Service</a><span class="sep">|</span><a href="privacy.html">Privacy policy</a><span class="sep">|</span><a href="mailto:zengcynthia9@gmail.com">zengcynthia9@gmail.com</a>
   </div>
 </footer>
 </body>
